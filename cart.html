@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <!--css file-->
+    <link rel="stylesheet" href="all.css">
+    <!--google-fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!---BootStrap/Js bundles link-->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!--JQuery file cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!--JavaScript File-->
+    <script src="index.js"></script>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        box-sizing: border-box;
+    }
+</style>
+
+<body>
+    <div id="header"></div>
+    <div class="container">
+
+        <div class="item">
+
+            <div class=" part card-header  heading">
+                <h3>Items in Cart</h3>
+            </div>
+            <div class="part part0">
+
+
+                <img src="bg.jpeg" alt="">
+            </div>
+
+            <div class="part part1">
+                <h5 class="ht">Black Gown</h5>
+                <p>15$</p>
+                <button style="background-color:rgb(230, 200, 31);border: none;border-radius: 5px;">
+                    <i class="fa-solid fa-trash"></i></button>
+
+            </div>
+
+            <div class="part part2 ">
+                <p>
+                    <button style="background-color: rgb(230, 200, 31);border: none;border-radius: 5ox;">
+                        <i class="fa-sharp fa-solid fa-minus"></i></button>
+                    <input type="text" value="1" style="width: 100px; text-align: center;">
+                    <button style="background-color: rgb(230, 200, 31);border: none;border-radius:5px">
+                        <i class="fa-sharp fa-solid fa-plus"></i></button>
+                </p>
+            </div>
+        </div>
+        <div class="item item2">
+            <div class="card  cards">
+                <div class="card-header">
+                    <h5>Summary</h5>
+                </div>
+                <div class="card-body cbody">
+                    <p class="card-text">Cost <span style="float: right;">$15</span></p>
+                    <p class="card-text">Shipping <span style="float: right;">$5</span></p>
+                    <hr>
+                    <p class="card-text"><strong>Total</strong><span style="float: right;"><strong>$20</strong></span>
+                    </p>
+                    <input type="button" value="Checkout"
+                        style=" width: 100%; height:40px;border: none; background-color: rgb(201, 201, 13);border-radius: 5px;">
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+
+</body>
+
+</html>
